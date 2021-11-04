@@ -1,0 +1,12 @@
+- ArrayList implements List interface
+- Implemented as a Resizable Array
+- Elements are stored in the order of insertion.
+- Duplicate elements are allowed
+- null elments are allowed
+- Constant time methods
+    - size
+    - isEmpty
+    - get
+    - set
+    - iterator
+    - listIterator
