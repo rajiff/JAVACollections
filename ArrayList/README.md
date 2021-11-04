@@ -10,3 +10,5 @@
     - set
     - iterator
     - listIterator
+- utility methods
+    - toArray()
