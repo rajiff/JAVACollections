@@ -88,9 +88,9 @@ public class EmployeeList {
 
     List<Employee> filteredEmpList = empList.stream().filter(emp -> emp.getCountry() != "China")
         .collect(Collectors.toList());
-    // filteredEmpList.stream().forEach(System.out::println);
+    filteredEmpList.stream().forEach(System.out::println);
 
-    filteredEmpList.parallelStream().forEach(System.out::println);
+    // filteredEmpList.parallelStream().forEach(System.out::println);
 
     System.out.println(filteredEmpList.stream().anyMatch(emp -> emp.getCountry().contains("P")));
   }
