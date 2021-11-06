@@ -6,8 +6,8 @@
 - Constant time methods
     - size
     - isEmpty
-    - get
-    - set
+    - get: get value of element specified at index
+    - set: set value of element at specified index, or replace current value of element at specified inde
     - iterator
     - listIterator
 - utility methods
